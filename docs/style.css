@@ -6,10 +6,10 @@
   --step-5: clamp(2.7994rem, 2.4462rem + 1.7658vw, 3.8147rem);
   --step-7: clamp(4.0311rem, 3.36rem + 3.3555vw, 5.9605rem);
 
-  --color-dark: #333;
-  --color-light: #f1f1f1;
-  --color-primary: hsl(240, 67%, 40%);
-  --color-secondary: hsl(281, 76%, 58%);
+  --color-dark: #FFEE8C;
+  --color-light: #000000;
+  --color-primary: hsl(350, 100%, 78%);
+  --color-secondary: hsl(350, 100%, 78%);
 }
 
 /* reset */
@@ -19,7 +19,7 @@ body {
   margin: 0;
 }
 body {
-  font-family: sans-serif;
+  
   font-size: var(--step-1);
 }
 
@@ -87,10 +87,12 @@ img {
 
 .hero-image {
   max-height: 60vh;
+  max-width: 60rem;
   width: 100%;
   aspect-ratio: 16/9;
-  object-fit: cover;
   object-position: center;
+  
+
 }
 
 /* main content */
