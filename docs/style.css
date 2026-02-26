@@ -101,6 +101,7 @@ img {
 .hero-image {
   width: 70%;
   display: flex;
+  filter: hue-rotate(6);
 
 }
 
