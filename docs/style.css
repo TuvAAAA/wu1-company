@@ -6,10 +6,10 @@
   --step-5: clamp(2.7994rem, 2.4462rem + 1.7658vw, 3.8147rem);
   --step-7: clamp(4.0311rem, 3.36rem + 3.3555vw, 5.9605rem);
 
-  --color-dark: #ed8e8e;
+  --color-dark: hsl(179, 100%, 81%);
   --color-light: #000000;
   --color-primary: hsl(54, 100%, 86%);
-  --color-secondary: hsl(350, 100%, 78%);
+  --color-secondary: hsl(350, 63%, 35%);
 }
 
 /* reset */
@@ -67,12 +67,17 @@ img {
 /* hero */
 /*margin är utanför(flyttar) och padding är innanför(strechar)*/
 
-.special{
-  color: #000000;
-  font-size: var(--step-7);
-  display: flex;
-  place-items: left;
 
+
+
+.hero-content h2 {
+  font-size: var(--step-2);
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #000000;
+  max-height: 20vh;
+  max-width: 50vh;
+  
 }
 
 .hero {
@@ -86,16 +91,6 @@ img {
 }
 .hero > * {
   grid-area: hero;
-}
-.hero-content h2 {
-  
-  font-size: var(--step-2);
-  font-weight: 800;
-  text-transform: uppercase;
-  color: #000000;
-  max-height: 20vh;
-  max-width: 50vh;
-  
 }
 
 .hero-image {
@@ -134,7 +129,7 @@ img {
 }
 
 .testimonials img {
-  border-radius: 100%;
+  border-radius:5%;
   aspect-ratio: 1;
 }
 
